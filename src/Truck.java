@@ -36,7 +36,5 @@ public class Truck extends Vehicle {
     @Override
     public double calculateFuelEfficiency() {
         return getMilesDriven()/(getFuelConsumed()+(getCargoWeight()*paramTruckEfficient));
-//        return super.calculateFuelEfficiency();
-//        milesDriven / (fuelConsumed + (cargoWeight * 0.5))
     }
 }
